@@ -1,0 +1,25 @@
+{
+  "name": "glib-hamburger",
+  "version": "0.0.1",
+  "description": "What am I about?",
+  "scripts": {
+    "start": "bash init.sh && node node_modules/ghost/index"
+  },
+  "dependencies": {
+    "ghost": "^1.25.2",
+    "ghost-cli": "^1.8.1",
+    "knex-migrator": "^3.1.8"
+  },
+  "engines": {
+    "node": "9.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/glib-hamburger"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
